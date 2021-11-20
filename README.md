@@ -135,7 +135,7 @@ while (!operationStack.isEmpty()) {
      QChar ch = operationStack.pop();
      result = Calculator::operate(prev, result, ch);
 }
-disp->setText(QString::number(result)); }
+disp->setText(QString::number(result)); }}
     
 ```
 
