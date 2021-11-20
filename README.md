@@ -79,7 +79,6 @@ void Calculator::equalButton(){
         qDebug() << fmod(*left, *right);
     }
     else {
-
 //Manage operations order
 QStack<int> operands;
 QStack<QChar> operationStack;
@@ -191,7 +190,9 @@ void Calculator::clearButton(){
 ## Traffic Lights
 In this exercise, we will use the QTimer to simulate a traffic light.
 <p align="center">
+  
   <img align="center" src="https://user-images.githubusercontent.com/72691265/142723271-78604e6d-6c7c-4fd0-8fbf-ef0d9a639682.png"/>
+  
 </p>
 
 ## First Function
@@ -232,7 +233,6 @@ First implementation :
         lifeTime = 0;
     }
 ```
-
 Second implementation :
 ```cpp
     index = (index + 1) % 6;
